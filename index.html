@@ -34,133 +34,170 @@
   <main id="main-content">
     <!-- HERO -->
     <section class="hero-section" id="home">
-      <div aria-hidden="true" class="hero-media">
-        <video class="hero-video is-active" loop="" muted="" playsinline="" preload="metadata">
+      <div class="hero-media" aria-hidden="true">
+        <video class="hero-video is-active" loop muted playsinline preload="metadata">
           <source src="images/SootScoot_hero.mp4" type="video/mp4" />
         </video>
-        <video class="hero-video" loop="" muted="" playsinline="" preload="none">
+        <video class="hero-video" loop muted playsinline preload="none">
           <source src="images/ToxicTide_hero.mp4" type="video/mp4" />
         </video>
-        <video class="hero-video" loop="" muted="" playsinline="" preload="none">
+        <video class="hero-video" loop muted playsinline preload="none">
           <source src="images/Groovity_hero.mp4" type="video/mp4" />
         </video>
-        <video class="hero-video" loop="" muted="" playsinline="" preload="none">
+        <video class="hero-video" loop muted playsinline preload="none">
           <source src="images/Undivided_hero.mp4" type="video/mp4" />
         </video>
         <div class="hero-scrim"></div>
       </div>
+
       <div class="container hero-content">
         <p class="eyebrow">GAME DESIGN · UNITY DEVELOPMENT · PRODUCTION</p>
         <h1>Winston Ngoui</h1>
         <p class="hero-title">Game Designer <span>+</span> Unity Developer</p>
         <p class="hero-copy">
-          I design gameplay systems, prototype mechanics, and build playable experiences.
-          I care about the decisions players make, and the iterations it takes to make those decisions feel great.
+          I design gameplay systems around player choices, prototype them in Unity, and refine them through playtesting. All in the name of fun!
         </p>
         <div class="hero-actions">
           <a class="button button-primary" href="#portfolio">Explore selected work <span aria-hidden="true">↓</span></a>
-          <a aria-label="Email Winston Ngoui" class="button button-ghost" href="mailto:winston.ngoui@gmail.com">Contact
-            me <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="mailto:winston.ngoui@gmail.com" aria-label="Email Winston Ngoui">
+            Contact me <span aria-hidden="true">↗</span>
+          </a>
         </div>
-        <div aria-label="Professional focus areas" class="hero-proof">
-          <span>Gameplay &amp; systems design</span>
-          <span>Unity / C# prototyping</span>
-          <span>Team leadership &amp; delivery</span>
+        <div class="hero-proof" aria-label="Professional focus areas">
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 9.5h11a3 3 0 0 1 2.9 2.2l1 3.7a2.3 2.3 0 0 1-3.8 2.2l-2.1-2H8.5l-2.1 2a2.3 2.3 0 0 1-3.8-2.2l1-3.7a3 3 0 0 1 2.9-2.2Z"/><path d="M8 11.5v4M6 13.5h4M16.2 12.4h.01M18.2 14.4h.01"/></svg>
+            Gameplay systems
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/></svg>
+            Unity / C#
+          </span>
+          <span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 20v-1.5a3.5 3.5 0 0 0-3.5-3.5h-5A3.5 3.5 0 0 0 4 18.5V20M10 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM17 4.5a3.5 3.5 0 0 1 0 6.8M20 20v-1.5a3.5 3.5 0 0 0-2.5-3.35"/></svg>
+            Leadership &amp; delivery
+          </span>
         </div>
       </div>
-      <a aria-label="Scroll to what I do" class="scroll-cue" href="#expertise">SCROLL TO EXPLORE <span
-          aria-hidden="true">↓</span></a>
+      <a class="scroll-cue" href="#expertise" aria-label="Scroll to what I do">
+        SCROLL TO EXPLORE <span aria-hidden="true">↓</span>
+      </a>
     </section>
+
     <!-- EXPERTISE -->
     <section class="content-section expertise-section" id="expertise">
       <div class="container">
-        <div class="section-heading">
+        <div class="section-heading expertise-heading">
           <p class="eyebrow">HOW I CONTRIBUTE</p>
           <h2>From gameplay idea to playable build.</h2>
-          <p class="section-intro">
-            My strongest work sits between design and implementation: defining how a game should feel,
-            building the systems behind it, and helping a team get it shipped.
-          </p>
+          <p class="section-intro">I connect design, implementation and delivery to turn ideas into playable experiences.</p>
         </div>
+
         <div class="expertise-grid">
           <article class="expertise-card">
-            <div class="expertise-index">01</div>
+            <div class="expertise-card-top">
+              <div class="expertise-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6.5 9.5h11a3 3 0 0 1 2.9 2.2l1 3.7a2.3 2.3 0 0 1-3.8 2.2l-2.1-2H8.5l-2.1 2a2.3 2.3 0 0 1-3.8-2.2l1-3.7a3 3 0 0 1 2.9-2.2Z"/><path d="M8 11.5v4M6 13.5h4M16.2 12.4h.01M18.2 14.4h.01"/></svg>
+              </div>
+              <span class="expertise-index">01 / DESIGN</span>
+            </div>
             <h3>Game design</h3>
-            <p>Turn player-facing goals into mechanics, systems, encounters, and readable moment-to-moment decisions.
-            </p>
-            <ul>
-              <li>Gameplay &amp; systems design</li>
-              <li>Mechanic and level prototyping</li>
-              <li>Playtesting, tuning &amp; iteration</li>
-            </ul>
+            <p>Turn player problems into mechanics, systems, encounters and meaningful decisions.</p>
+            <div class="expertise-tags" aria-label="Game design skills">
+              <span>Gameplay systems</span><span>Level prototyping</span><span>Playtest &amp; iteration</span>
+            </div>
           </article>
+
           <article class="expertise-card expertise-card-featured">
-            <div class="expertise-index">02</div>
+            <div class="expertise-card-top">
+              <div class="expertise-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/></svg>
+              </div>
+              <span class="expertise-index">02 / DEVELOPMENT</span>
+            </div>
             <h3>Unity development</h3>
-            <p>Prototype and implement gameplay directly, keeping design intent connected to the realities of the build.
-            </p>
-            <ul>
-              <li>7+ years using Unity</li>
-              <li>C# gameplay implementation</li>
-              <li>Technical design &amp; debugging</li>
-            </ul>
+            <p>Build and refine gameplay directly in-engine, keeping design intent close to implementation.</p>
+            <div class="expertise-tags" aria-label="Unity development skills">
+              <span>7+ years Unity</span><span>C# gameplay</span><span>Technical design &amp; debugging</span>
+            </div>
           </article>
+
           <article class="expertise-card">
-            <div class="expertise-index">03</div>
+            <div class="expertise-card-top">
+              <div class="expertise-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 6h6v5H4zM14 13h6v5h-6zM10 8.5h4a2 2 0 0 1 2 2V13M7 11v5a2 2 0 0 0 2 2h5"/><path d="M7 8.5h.01M17 15.5h.01"/></svg>
+              </div>
+              <span class="expertise-index">03 / PRODUCTION</span>
+            </div>
             <h3>Game production</h3>
-            <p>Help multidisciplinary teams make decisions, manage scope, and maintain momentum toward a playable
-              result.</p>
-            <ul>
-              <li>Task planning &amp; prioritisation</li>
-              <li>Cross-discipline communication</li>
-              <li>Scope, milestones &amp; delivery</li>
-            </ul>
+            <p>Align people, priorities and scope to keep multidisciplinary teams moving toward delivery.</p>
+            <div class="expertise-tags" aria-label="Game production skills">
+              <span>Task planning</span><span>Cross-discipline communication</span><span>Milestones &amp; scope</span>
+            </div>
           </article>
         </div>
+
         <div class="toolkit-strip">
           <span class="toolkit-label">TOOLS &amp; PRACTICE</span>
-          <p>Unity · C# · Gameplay prototyping · Systems design · Technical design · Playtesting · Production planning
-          </p>
+          <div class="toolkit-chips" aria-label="Tools and practices">
+            <span>Unity</span><span>C#</span><span>Gameplay prototyping</span><span>Systems design</span>
+            <span>Technical design</span><span>Playtesting</span><span>Production planning</span>
+          </div>
         </div>
       </div>
     </section>
+
     <!-- ABOUT -->
     <section class="content-section about-section" id="about">
       <div class="container about-layout">
         <div class="about-copy">
           <p class="eyebrow">A LITTLE ABOUT ME</p>
-          <h2>Curious about why games work... and how to make them work better.</h2>
-          <p>
-            I am a User Experience and Game Design student at DigiPen Institute of Technology Singapore.
-            I enjoy working where design meets implementation: breaking down a player problem, building a
-            prototype in Unity, and refining it until the interaction makes sense in the hands of a player.
-          </p>
-          <p>
-            Games such as Pokémon, Halo, Warframe, and League of Legends shaped my interest in the systems
-            beneath the surface. I like understanding how mechanics connect, how player choices create
-            different experiences, and how a small change can affect the rhythm of an entire game.
-          </p>
-          <p>
-            Across team projects, I have worked as a Design Lead, Technical &amp; Gameplay Designer, Team Lead,
-            Product Manager, and solo developer. Those roles taught me to move between creative direction,
-            hands-on problem-solving, and the practical work of getting a team to the finish line.
-          </p>
+          <h2>Curious about why games work... and how to make them work better!</h2>
+          <div class="about-highlights">
+            <article class="about-highlight">
+              <span class="about-highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v16H6.5A2.5 2.5 0 0 0 4 21.5z"/><path d="M4 5.5v16M8 7h8M8 11h8"/></svg>
+              </span>
+              <div>
+                <h3>Design-minded builder</h3>
+                <p>DigiPen UX &amp; Game Design student. I turn player problems into Unity prototypes, then refine how they feel through iteration.</p>
+              </div>
+            </article>
+            <article class="about-highlight">
+              <span class="about-highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="m12 3 1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3Z"/><path d="m19 15 .9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15Z"/></svg>
+              </span>
+              <div>
+                <h3>Curious about game systems</h3>
+                <p>Pokémon, Halo, Warframe and League of Legends shaped my interest in connected mechanics and meaningful player choices.</p>
+              </div>
+            </article>
+            <article class="about-highlight">
+              <span class="about-highlight-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M16 20v-1.5a3.5 3.5 0 0 0-3.5-3.5h-5A3.5 3.5 0 0 0 4 18.5V20M10 11a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM17 4.5a3.5 3.5 0 0 1 0 6.8M20 20v-1.5a3.5 3.5 0 0 0-2.5-3.35"/></svg>
+              </span>
+              <div>
+                <h3>Comfortable across roles</h3>
+                <p>I've worked as Design Lead, Technical &amp; Gameplay Designer, Team Lead, Product Manager and solo developer, balancing direction, implementation and delivery.</p>
+              </div>
+            </article>
+          </div>
           <div class="about-signoff">
             <span class="about-dot"></span>
-            <span>Currently building, testing, and learning one mechanic at a time.</span>
+            <span>Currently building, testing and learning one mechanic at a time.</span>
           </div>
         </div>
         <div class="about-visual">
           <div class="about-photo-frame">
-            <img alt="Portrait of Winston Ngoui" loading="lazy" src="images/MePhoto.jpg" />
+            <img src="images/MePhoto.jpg" alt="Portrait of Winston Ngoui" loading="lazy" />
           </div>
           <div class="about-note">
             <span class="about-note-label">MY DESIGN INSTINCT</span>
-            <strong>Clear rules and interesting choices make for fun experiences.</strong>
+            <strong>Clear rules. Interesting choices. Better play.</strong>
           </div>
         </div>
       </div>
     </section>
+
     <!-- SELECTED WORK -->
     <section class="content-section portfolio-section" id="portfolio">
       <div class="container">
